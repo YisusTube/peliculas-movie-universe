@@ -1,0 +1,186 @@
+/* ---- ----- ----- Pelicula ----- ----- ----- */
+
+.pelicula-tinkerbell_1 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img_fondo/tinkerbell_1.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.pelicula-tinkerbell_2 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img_fondo/tinkerbell_2.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.pelicula-tinkerbell_3 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img_fondo/tinkerbell_3.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.pelicula-tinkerbell_4 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img_fondo/tinkerbell_4.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.pelicula-tinkerbell_5 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img_fondo/tinkerbell_5.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.pelicula-tinkerbell_6 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img_fondo/tinkerbell_6.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+/* ---- ----- ----- Controles ----- ----- ----- */
+
+.pelicula-tinkerbell_1 .contenedor, 
+.pelicula-tinkerbell_2 .contenedor,
+.pelicula-tinkerbell_3 .contenedor, 
+.pelicula-tinkerbell_4 .contenedor,
+.pelicula-tinkerbell_5 .contenedor, 
+.pelicula-tinkerbell_6 .contenedor {
+	margin: 0 auto;
+	margin-left: 5em;
+	margin-bottom: 6em;
+	background-position: center center;
+
+}
+
+.pelicula-tinkerbell_1 .tituloPrincipal, 
+.pelicula-tinkerbell_2 .tituloPrincipal,
+.pelicula-tinkerbell_3 .tituloPrincipal, 
+.pelicula-tinkerbell_4 .tituloPrincipal,
+.pelicula-tinkerbell_5 .tituloPrincipal, 
+.pelicula-tinkerbell_6 .tituloPrincipal {
+	margin: 0 auto;
+	margin-bottom: 1.50em;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center center;
+}
+
+.pelicula-tinkerbell_1 .info, 
+.pelicula-tinkerbell_2 .info, 
+.pelicula-tinkerbell_3 .info, 
+.pelicula-tinkerbell_4 .info, 
+.pelicula-tinkerbell_5 .info, 
+.pelicula-tinkerbell_6 .info  {
+	margin: 0 auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center center;
+}
+
+.pelicula-tinkerbell_1 .botones, 
+.pelicula-tinkerbell_2 .botones, 
+.pelicula-tinkerbell_3 .botones, 
+.pelicula-tinkerbell_4 .botones, 
+.pelicula-tinkerbell_5 .botones, 
+.pelicula-tinkerbell_6 .botones  {
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center center;
+}
+
+.pelicula-tinkerbell_1 .titulo, 
+.pelicula-tinkerbell_2 .titulo, 
+.pelicula-tinkerbell_3 .titulo, 
+.pelicula-tinkerbell_4 .titulo, 
+.pelicula-tinkerbell_5 .titulo, 
+.pelicula-tinkerbell_6 .titulo  {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-tinkerbell_1 .descripcion, 
+.pelicula-tinkerbell_2 .descripcion,
+.pelicula-tinkerbell_3 .descripcion, 
+.pelicula-tinkerbell_4 .descripcion,
+.pelicula-tinkerbell_5 .descripcion, 
+.pelicula-tinkerbell_6 .descripcion  {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+.pelicula-tinkerbell_1 .boton, 
+.pelicula-tinkerbell_2 .boton,
+.pelicula-tinkerbell_3 .boton, 
+.pelicula-tinkerbell_4 .boton, 
+.pelicula-tinkerbell_5 .boton, 
+.pelicula-tinkerbell_6 .boton  {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+.pelicula-tinkerbell_1 .boton:hover, 
+.pelicula-tinkerbell_2 .boton:hover, 
+.pelicula-tinkerbell_3 .boton:hover, 
+.pelicula-tinkerbell_4 .boton:hover, 
+.pelicula-tinkerbell_5 .boton:hover, 
+.pelicula-tinkerbell_6 .boton:hover  {
+	background: #fff;
+	color: #000;
+}
+
+.pelicula-tinkerbell_1 .boton i, 
+.pelicula-tinkerbell_2 .boton i,
+.pelicula-tinkerbell_3 .boton i, 
+.pelicula-tinkerbell_4 .boton i,
+.pelicula-tinkerbell_5 .boton i, 
+.pelicula-tinkerbell_6 .boton i  {
+	margin-right: 1.25em;
+}

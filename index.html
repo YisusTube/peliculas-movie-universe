@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<title>Netflix</title>
+	<style>
+		h1{
+			color:white;
+			font-size: 20px;
+			text-align: center;
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">Netflix</h2>
+			<nav>
+				<a href="index.html" class="activo">Inicio</a>
+				<a href="#">Series</a>
+				<a href="#">Películas</a>
+				<a href="#">Animes</a>
+				<a href="#">Más Recientes</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<div class="tituloPrincipal">
+					<a><img src="img_portadas/titulo_aladdin.png" width="325" height="auto" /></a>
+				</div>
+
+				<div class="info">
+					<p class="descripcion">
+						Aladdin es un adorable pero desafortunado ladronzuelo enamorado de la hija del Sultán, la princesa Jasmine. 
+						Para intentar conquistarla, acepta el desafío de Jafar, que consiste en entrar a una cueva en mitad del 
+						desierto para dar con una lámpara mágica que le concederá todos sus deseos. Allí es donde Aladdín conocerá 
+						al Genio, dando inicio a una aventura como nunca antes había imaginado.
+					</p>
+				</div>
+	
+				<div classs="botones">
+					<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				</div>
+			</div>
+		</div>
+	
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Animación</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="animacion/TinkerBell1.html"><img src="img_portadas/tinkerbell 1.jpg"></a>
+							<h1>Tinker Bell: Campanilla</h1>
+						</div>
+						<div class="pelicula">
+							<a href="animacion/TinkerBell2.html"><img src="img_portadas/tinkerbell 2.jpg" alt=""></a>
+							<h1>Tinker Bell y el tesoro perdido</h1>
+						</div>
+						<div class="pelicula">
+							<a href="animacion/TinkerBell3.html"><img src="img_portadas/tinkerbell 3.jpg" alt=""></a>
+							<h1>Tinker Bell: hadas al rescate</h1>
+						</div>
+						<div class="pelicula">
+							<a href="animacion/TinkerBell4.html"><img src="img_portadas/tinkerbell 4.jpg" alt=""></a>
+							<h1>Tinker Bell y el secreto de las hadas</h1>
+						</div>
+						<div class="pelicula">
+							<a href="animacion/TinkerBell5.html"><img src="img_portadas/tinkerbell 5.jpg" alt=""></a>
+							<h1>Tinker Bell: hadas y piratas</h1>
+						</div>
+						<div class="pelicula">
+							<a href="animacion/TinkerBell6.html"><img src="img_portadas/tinkerbell 6.jpg" alt=""></a>
+							<h1>Tinkerbell y la bestia de Nunca Jamás</h1>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img_portadas/chimuelo 1.jpg" alt=""></a>
+							<h1>Cómo entrenar a tu dragón 1</h1>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img_portadas/chimuelo 2.jpg" alt=""></a>
+							<h1>Cómo entrenar a tu dragón 2</h1>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img_portadas/chimuelo 3.jpg" alt=""></a>
+							<h1>Cómo entrenar a tu dragón 3</h1>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img_portadas/chimuelo regalo.jpg" alt=""></a>
+							<h1>Dragones: El regalo de Furia Nocturna</h1>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img_portadas/chimuelo leyenda.jpg" alt=""></a>
+							<h1>Cómo entrenar a tu dragón: La leyenda del Robahuesos</h1>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img_portadas/chimuelo navidad.jpg" alt=""></a>
+							<h1>Cómo Entrenar A Tu Dragón: El Regreso</h1>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+			
+		</div>
+
+	</main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+</body>
+</html>
